@@ -1,0 +1,17 @@
+{
+  "name": "@arunpurewal/workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "pnpm --filter @arun/client",
+    "lib": "pnpm --filter @arun-purewal/ui-react",
+    "dev": "pnpm --recursive --parallel --stream run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
